@@ -5,7 +5,7 @@ bool isInvalid(long long num) {
     string s = to_string(num);
     int n = s.length();
     for (int block = 1; block <= n / 2; block++) {
-        if (n % block != 0) continue;
+        if (n % block != 0) continue; 
         string part = s.substr(0, block);
         bool ok = true;
         for (int i = 0; i < n; i++) {
