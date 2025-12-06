@@ -7,7 +7,7 @@ bool isInvalid(long long n) {
     if (len % 2 != 0) return false;
     int half = len / 2;
     for (int i = 0; i < half; i++) {
-        if (s[i] != s[i + half]) {
+        if (s[i] != s[i + half]) { 
             return false;
         }
     }
